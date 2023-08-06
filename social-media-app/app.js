@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://muhammedusta:0101asdasdTRT@cluster0.c2lqs0d.mongodb.net/socialmedia?retryWrites=true&w=majority");
+mongoose.connect("");
 
 const User = mongoose.model("user", new mongoose.Schema({
     mailAddress: {
